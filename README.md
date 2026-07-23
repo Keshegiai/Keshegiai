@@ -35,21 +35,6 @@ My main focus is application architecture, performance, security, and clean user
 
 ## 💼 Selected Work
 
-### Kapelnica Platform
-
-Healthcare appointment platform for a network of procedure rooms in Almaty.
-
-- appointment and time-slot management;
-- OTP authentication and role-based access;
-- admin and nurse interfaces;
-- QR-based appointment check-in;
-- audit logging and API security;
-- CI/CD, Docker, OpenAPI, and automated testing.
-
-**Stack:** Go, PostgreSQL, Next.js, TypeScript, Flutter, Docker
-
----
-
 ### Amanat Business World
 
 Multilingual corporate website for a business services company in Kazakhstan.
@@ -60,7 +45,7 @@ Multilingual corporate website for a business services company in Kazakhstan.
 - technical SEO and analytics integration;
 - production deployment.
 
-**Stack:** Next.js, TypeScript, Tailwind CSS, Vercel
+**Stack:** Next.js, TypeScript, Tailwind CSS
 
 ---
 
@@ -77,7 +62,6 @@ Platform for managing diploma projects and academic workflows.
 **Stack:** Next.js, React, TypeScript, TanStack Query, Go
 
 > Product and client repositories are private.  
-> Public showcase repositories contain project descriptions, architecture, and screenshots.
 
 ---
 
