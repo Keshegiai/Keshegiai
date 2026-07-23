@@ -35,20 +35,6 @@ My main focus is application architecture, performance, security, and clean user
 
 ## 💼 Selected Work
 
-### Amanat Business World
-
-Multilingual corporate website for a business services company in Kazakhstan.
-
-- responsive company website;
-- Russian, Kazakh, and English localization;
-- service pages and lead collection;
-- technical SEO and analytics integration;
-- production deployment.
-
-**Stack:** Next.js, TypeScript, Tailwind CSS
-
----
-
 ### Diploma Management Platform
 
 Platform for managing diploma projects and academic workflows.
