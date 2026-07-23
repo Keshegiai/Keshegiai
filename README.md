@@ -104,29 +104,3 @@ Platform for managing diploma projects and academic workflows.
 </p>
 
 ---
-
-## 🐍 Contribution Activity
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Keshegiai/Keshegiai/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Keshegiai/Keshegiai/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="GitHub contribution snake"
-    src="https://raw.githubusercontent.com/Keshegiai/Keshegiai/output/github-contribution-grid-snake.svg"
-  />
-</picture>
-
----
-
-## 📫 Contact
-
-- Location: Almaty, Kazakhstan
-- Email: YOUR_EMAIL
-- LinkedIn: YOUR_LINKEDIN_URL
-- Portfolio: YOUR_PORTFOLIO_URL
