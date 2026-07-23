@@ -96,10 +96,6 @@ Platform for managing diploma projects and academic workflows.
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Keshegiai&show_icons=true&hide_border=true&theme=github_dark&include_all_commits=true" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=Keshegiai&theme=github-dark-blue&hide_border=true" />
 </p>
 
