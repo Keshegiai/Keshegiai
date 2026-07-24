@@ -77,10 +77,22 @@ Platform for managing diploma projects and academic workflows.
 
 ---
 
-## 📊 GitHub Activity
+# 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Keshegiai&theme=github-dark-blue&hide_border=true" />
+  <img
+    width="700"
+    src="https://streak-stats.demolab.com?user=Keshegiai&theme=github-dark-blue&hide_border=true&locale=en&short_numbers=false&starting_year=2022&card_width=700"
+    alt="Aidyn's GitHub contribution streak"
+  />
+</p>
+
+<p align="center">
+  <img
+    width="700"
+    src="https://github-readme-stats.vercel.app/api?username=Keshegiai&theme=github_dark&hide_border=true&show_icons=true&include_all_commits=true&number_format=long&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"
+    alt="Aidyn's GitHub statistics"
+  />
 </p>
 
 ---
