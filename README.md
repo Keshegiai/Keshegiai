@@ -45,7 +45,7 @@ Multilingual corporate website for a business services company in Kazakhstan.
 - technical SEO and analytics integration;
 - production deployment.
 
-**Stack:** Next.js, TypeScript, Tailwind CSS, Vercel
+**Stack:** Next.js, TypeScript, Tailwind CSS
 
 ---
 
