@@ -21,8 +21,6 @@ Currently working on a healthcare appointment platform with:
 - a mobile application built with Flutter;
 - PostgreSQL, Docker, OpenAPI, and GitHub Actions.
 
-My main focus is application architecture, performance, security, and clean user experience.
-
 ---
 
 ## 🛠 Tech Stack
