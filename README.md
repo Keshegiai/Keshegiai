@@ -1,100 +1,46 @@
-<div align="center">
+```
+┌──────────────────────────────────────────────────────────────┐
+│  AIDYN ALMASSOV                          Almaty, Kazakhstan  │
+│  Software Engineer                   Backend · Web · Mobile  │
+└──────────────────────────────────────────────────────────────┘
+```
 
-# Aidyn Almassov
+I build products end to end — schema, API, interface, deploy. Go on the server,
+TypeScript on the web, Flutter on mobile. Most of what I ship runs in production
+and has real users, not just a green commit graph.
 
-**Software Engineer** — Almaty, Kazakhstan
+[LinkedIn](https://www.linkedin.com/in/aidyn-almassov-938463316) · [kt-magistratura.web.app](https://kt-magistratura.web.app)
 
-Frontend · Backend · Mobile
+## 01 — Now
 
-[LinkedIn](https://www.linkedin.com/in/aidyn-almassov-938463316) · [GitHub](https://github.com/Keshegiai)
+Building a **healthcare appointment platform** — booking, clinic and schedule
+management across three coordinated surfaces.
 
-</div>
-
-<br>
-
----
-
-<br>
-
-## About
-
-I build production-ready web, backend, and mobile applications — from database schema
-to deployed interface.
-
-Currently working on a **healthcare appointment platform**:
-
-| Layer | Implementation |
-| :--- | :--- |
+| | |
+|:--|:--|
 | Backend | Go, modular monolith, REST + OpenAPI |
-| Admin panel | Next.js, TypeScript |
+| Admin | Next.js, TypeScript |
 | Mobile | Flutter |
-| Data & infra | PostgreSQL, Docker, GitHub Actions |
+| Infra | PostgreSQL, Docker, GitHub Actions |
 
-<br>
+## 02 — Selected work
 
----
+**KT Magistratura** — [kt-magistratura.web.app](https://kt-magistratura.web.app)
 
-<br>
+Exam-prep platform for the Kazakhstani КТ magistratura entrance test (М094 track).
+Built to the official НЦТ 2024 specification, live and in use.
 
-## Stack
+- 2 200+ exam questions across three subjects — English, Algorithms & Data Structures, Databases
+- ~60 lessons in 10-day study plans, spec-compliant timed exam modes
+- Accounts with cross-device progress sync, leaderboards, referrals, feature voting
+- Offline-first PWA: service worker, installable on iOS and Android
+- Bilingual RU/KZ interface
 
-**Languages**
+`React` · `Firebase` · `PWA` · `localStorage`
 
-![Go](https://img.shields.io/badge/Go-0D1117?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0D1117?style=flat-square&logo=dart&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=postgresql&logoColor=white)
+**Diploma Management Platform**
 
-**Frontend**
-
-![React](https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=nextdotjs&logoColor=white)
-![TanStack Query](https://img.shields.io/badge/TanStack%20Query-0D1117?style=flat-square&logo=reactquery&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-0D1117?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Backend & Data**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=white)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-0D1117?style=flat-square&logo=openapiinitiative&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=white)
-
-**Mobile**
-
-![Flutter](https://img.shields.io/badge/Flutter-0D1117?style=flat-square&logo=flutter&logoColor=white)
-![React Native](https://img.shields.io/badge/React%20Native-0D1117?style=flat-square&logo=react&logoColor=white)
-
-**Tooling**
-
-![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0D1117?style=flat-square&logo=githubactions&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-0D1117?style=flat-square&logo=figma&logoColor=white)
-
-<br>
-
----
-
-<br>
-
-## Selected Work
-
-### Amanat Business World
-
-Multilingual corporate website for a business services company in Kazakhstan.
-
-- Responsive marketing site with service pages and lead collection
-- Localization in Russian, Kazakh and English
-- Technical SEO and analytics integration
-- Production deployment and post-launch support
-
-`Next.js` · `TypeScript` · `Tailwind CSS`
-
-<br>
-
-### Diploma Management Platform
-
-Platform for managing diploma projects and academic workflows across students,
-supervisors and administrators.
+Platform for running diploma projects across students, supervisors and administrators.
 
 - Role-based dashboards with per-role permissions
 - Project stages, task tracking and Kanban workflow
@@ -103,62 +49,45 @@ supervisors and administrators.
 
 `Next.js` · `React` · `TypeScript` · `TanStack Query` · `Go`
 
-<br>
+**Amanat Business World**
 
-### Healthcare Appointment Platform — in progress
+Multilingual corporate site for a business services company in Kazakhstan.
 
-Appointment booking and clinic management, built as three coordinated surfaces:
-a Go backend, a Next.js admin panel and a Flutter mobile client.
+- Responsive marketing pages and lead collection
+- RU / KZ / EN localization
+- Technical SEO, analytics, production deployment
 
-`Go` · `Next.js` · `Flutter` · `PostgreSQL` · `Docker`
+`Next.js` · `TypeScript` · `Tailwind CSS`
 
-<sub>Product and client repositories are private. Happy to walk through
-architecture and code on request.</sub>
+<sub>Product and client repositories are private — happy to walk through architecture and code.</sub>
 
-<br>
+## 03 — Stack
 
----
+| | |
+|:--|:--|
+| **Backend** | Go · REST · OpenAPI · PostgreSQL · SQL / PL-SQL · T-SQL |
+| **Frontend** | TypeScript · React · Next.js · TanStack Query · Tailwind |
+| **Mobile** | Flutter · Dart · React Native |
+| **Infra** | Docker · GitHub Actions · Firebase Hosting · Git |
+| **Design** | Figma |
 
-<br>
+## 04 — How I work
 
-## Engineering Focus
+- Modular monolith with clear service boundaries before microservice sprawl
+- OpenAPI as the contract, not as documentation written afterwards
+- Auth, authorization and audit logging designed in, not bolted on
+- PostgreSQL schema design and query optimization — measure, then tune
+- Rate limiting and defensive API behaviour by default
+- Automated tests, CI/CD, Docker-based deployment
 
-- Modular monolith architecture and clear service boundaries
-- REST API design with OpenAPI as the contract
-- Authentication, authorization and audit logging
-- PostgreSQL query optimization and schema design
-- Rate limiting and defensive API behaviour
-- Automated testing, CI/CD and Docker-based deployment
+## 05 — Background
 
-<br>
+**B.Sc. Software Engineering** — International Information Technologies University, Almaty · 2022–2026
+**Junior Full-Stack Developer / Designer** — KamiQr
 
----
+Currently deepening database engineering: T-SQL and PL/SQL, execution plans,
+indexing strategy, transaction isolation.
 
-<br>
+<img src="https://github-readme-stats.vercel.app/api?username=Keshegiai&show_icons=true&hide_border=true&hide_title=true&theme=transparent&text_color=8b949e&icon_color=6e7681&ring_color=6e7681" width="440" alt="GitHub stats" />
 
-## Education
-
-**B.Sc. Software Engineering** — International Information Technologies University (IITU), Almaty
-<br>
-2022 — 2026
-
-<br>
-
----
-
-<br>
-
-<div align="center">
-
-<img
-  width="700"
-  src="https://streak-stats.demolab.com?user=Keshegiai&theme=dark&hide_border=true&locale=en&short_numbers=false&starting_year=2022&card_width=700"
-  alt="GitHub contribution streak"
-/>
-
-<br><br>
-
-**Open to backend, full-stack and mobile roles.**
-[Get in touch](https://www.linkedin.com/in/aidyn-almassov-938463316)
-
-</div>
+**Open to backend, full-stack and mobile roles.** [Get in touch →](https://www.linkedin.com/in/aidyn-almassov-938463316)
