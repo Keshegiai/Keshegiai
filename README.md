@@ -14,39 +14,48 @@ Frontend · Backend · Mobile Development
 
 I build production-ready web, backend, and mobile applications.
 
-Currently working on a healthcare appointment platform with:
+Currently working on:
 
-- a backend written in Go;
-- an admin panel built with Next.js;
-- a mobile application built with Flutter;
-- PostgreSQL, Docker, OpenAPI, and GitHub Actions.
+- **SOBRANO** — a food retail platform: SSR storefront, admin back office, Supabase/Postgres, and an Android build from the same codebase;
+- a **healthcare appointment platform** — Go backend, Next.js admin panel, Flutter mobile app, PostgreSQL, Docker, OpenAPI, and GitHub Actions.
 
 ---
 
 ## 🛠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css,go,postgres,flutter,dart,docker,git,githubactions,figma&perline=8" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css,go,postgres,supabase,flutter,dart,docker,git,githubactions,figma&perline=8" />
 </p>
 
 ---
 
 ## 💼 Selected Work
 
-### KT Magistratura
+### SOBRANO
 
-Exam-preparation platform for the Kazakhstani КТ magistratura entrance test (М094 track),
-built to the official НЦТ 2024 specification. Live at [kt-magistratura.web.app](https://kt-magistratura.web.app).
+Food retail platform for a Kazakhstani producer — customer storefront, admin back office,
+and a native Android build, all from one TypeScript codebase.
 
-- 2,200+ exam questions across three subjects — English, Algorithms & Data Structures, Databases;
-- around 60 lessons organised into 10-day study plans;
-- timed exam modes matching the official question count and time limits;
-- accounts with cross-device progress sync, leaderboards, and referral links;
-- mistake tracking with links back to the relevant theory, and full-text search across theory and questions;
-- offline-first PWA — installable on iOS and Android, works without a connection;
-- bilingual Russian / Kazakh interface.
+- SSR storefront on TanStack Start with the full catalog served from Postgres across six
+  merchandising surfaces (ready meals, raw kits, semi-ready, market, meat, vegetables);
+- admin panel for catalog, branches, staff, and orders — MFA-gated staff management with an
+  append-only audit log;
+- order pricing is server-authoritative: delivery fees, minimum-order rules, and promo codes
+  are computed by a single Postgres RPC, never recalculated in the client;
+- row-level security on every public table, verified by SQL policy tests that run against a
+  real Supabase project in CI;
+- Supabase Edge Functions for privileged operations — image upload, staff invites, MFA reset,
+  SMS auth;
+- Capacitor wraps the same web build into a signed Android release;
+- images served through Supabase render transforms with `srcset` — the market page dropped
+  from 15 MB of imagery to 437 KB;
+- five GitHub Actions workflows: CI, frontend deploy to VPS, gated migrations, Edge Function
+  deploys, and mobile release.
 
-**Stack:** React, Firebase Hosting, PWA (Service Worker, Web App Manifest)
+**Stack:** React 19, TanStack Start / Router / Query, TypeScript, Tailwind CSS v4,
+Supabase (Postgres, RLS, Edge Functions), Capacitor, Vitest, Sentry, Nginx + systemd, GitHub Actions
+
+> In active development.
 
 ---
 
@@ -98,13 +107,30 @@ Platform for managing diploma projects and academic workflows.
 
 ## ⚙️ Engineering Focus
 
-- Modular monolith architecture
-- REST API and OpenAPI
-- Authentication and authorization
-- PostgreSQL query optimization
-- Rate limiting and audit logging
-- Automated testing and CI/CD
-- Docker-based deployment
+**Data layer**
+- PostgreSQL schema design driven entirely by versioned migrations — no manual dashboard edits
+- Row-level security policies, `security definer` RPC boundaries, and SQL tests that assert them
+- Server-authoritative business rules: pricing, validation, and money math live in the database
+
+**Application architecture**
+- Modular monolith boundaries in Go; feature-sliced frontends in TypeScript
+- SSR with route-level data loading and query hydration (TanStack Start, React Query)
+- REST contracts defined OpenAPI-first, with types generated from the schema and drift-checked in CI
+
+**Security**
+- Authentication and authorization with role-based access and enforced MFA for privileged roles
+- Append-only audit logging, rate limiting, CSP and security headers verified before deploy
+- Secret hygiene enforced by CI guards that fail the build on secrets leaking into client bundles
+
+**Performance**
+- Bundle budgets and chunk-composition guards enforced as CI steps, not as review comments
+- Image pipelines with CDN transforms, `srcset`, and responsive variants
+- Query optimization and read models tuned for the access patterns that actually run
+
+**Delivery**
+- Test strategy layered across unit, component, integration against a real database, and SQL policy tests
+- GitHub Actions pipelines: gated migrations, edge deploys, VPS releases, signed mobile builds
+- Docker, Nginx, and systemd on self-managed infrastructure
 
 ---
 
