@@ -33,27 +33,22 @@ Currently working on:
 
 ### SOBRANO
 
-Food retail platform for a Kazakhstani producer — customer storefront, admin back office,
-and a native Android build, all from one TypeScript codebase.
+Food retail platform — customer storefront, admin back office, and a native Android build,
+all from a single TypeScript codebase.
 
-- SSR storefront on TanStack Start with the full catalog served from Postgres across six
-  merchandising surfaces (ready meals, raw kits, semi-ready, market, meat, vegetables);
-- admin panel for catalog, branches, staff, and orders — MFA-gated staff management with an
-  append-only audit log;
-- order pricing is server-authoritative: delivery fees, minimum-order rules, and promo codes
-  are computed by a single Postgres RPC, never recalculated in the client;
-- row-level security on every public table, verified by SQL policy tests that run against a
-  real Supabase project in CI;
-- Supabase Edge Functions for privileged operations — image upload, staff invites, MFA reset,
-  SMS auth;
-- Capacitor wraps the same web build into a signed Android release;
-- images served through Supabase render transforms with `srcset` — the market page dropped
-  from 15 MB of imagery to 437 KB;
-- five GitHub Actions workflows: CI, frontend deploy to VPS, gated migrations, Edge Function
-  deploys, and mobile release.
+- server-rendered storefront on TanStack Start, with the catalog served from Postgres across
+  six merchandising surfaces (ready meals, raw kits, semi-ready, market, meat, vegetables);
+- admin panel for catalog, branches, staff, and order management;
+- server-authoritative order pricing — delivery fees, minimum-order rules, and promo codes are
+  computed in the database, so the client never recalculates money;
+- role-based access control enforced at the data layer and covered by automated tests in CI;
+- shared domain types across web and mobile, generated from the database schema;
+- Android build produced from the same codebase via Capacitor;
+- CI/CD on GitHub Actions: test suite, versioned migrations, backend function deploys,
+  web releases, and signed mobile builds.
 
 **Stack:** React 19, TanStack Start / Router / Query, TypeScript, Tailwind CSS v4,
-Supabase (Postgres, RLS, Edge Functions), Capacitor, Vitest, Sentry, Nginx + systemd, GitHub Actions
+Supabase (Postgres, Edge Functions), Capacitor, Vitest, GitHub Actions
 
 > In active development.
 
@@ -66,7 +61,8 @@ Appointment booking and clinic management, built as three coordinated surfaces.
 - patient-facing mobile app for booking and appointment history;
 - admin panel for clinics, doctors, and schedules;
 - Go backend with a modular monolith architecture;
-- OpenAPI-first REST contract shared across clients;
+- OpenAPI-first REST contract shared across all clients;
+- scheduling and availability logic resolved server-side;
 - containerised deployment with CI on GitHub Actions.
 
 **Stack:** Go, Next.js, Flutter, PostgreSQL, Docker, OpenAPI
@@ -108,29 +104,28 @@ Platform for managing diploma projects and academic workflows.
 ## ⚙️ Engineering Focus
 
 **Data layer**
-- PostgreSQL schema design driven entirely by versioned migrations — no manual dashboard edits
-- Row-level security policies, `security definer` RPC boundaries, and SQL tests that assert them
-- Server-authoritative business rules: pricing, validation, and money math live in the database
+- PostgreSQL schema design driven entirely by versioned migrations
+- Business rules — pricing, validation, money math — resolved server-side rather than in clients
+- Query optimization and read models shaped around real access patterns
 
 **Application architecture**
 - Modular monolith boundaries in Go; feature-sliced frontends in TypeScript
 - SSR with route-level data loading and query hydration (TanStack Start, React Query)
 - REST contracts defined OpenAPI-first, with types generated from the schema and drift-checked in CI
 
-**Security**
-- Authentication and authorization with role-based access and enforced MFA for privileged roles
-- Append-only audit logging, rate limiting, CSP and security headers verified before deploy
-- Secret hygiene enforced by CI guards that fail the build on secrets leaking into client bundles
+**Access control**
+- Role-based authorization applied consistently across web, mobile, and API surfaces
+- Authorization rules covered by automated tests rather than manual review
 
 **Performance**
-- Bundle budgets and chunk-composition guards enforced as CI steps, not as review comments
+- Bundle budgets and chunk-composition checks enforced as CI steps, not as review comments
 - Image pipelines with CDN transforms, `srcset`, and responsive variants
-- Query optimization and read models tuned for the access patterns that actually run
+- Caching and data-loading strategy tuned per route
 
 **Delivery**
-- Test strategy layered across unit, component, integration against a real database, and SQL policy tests
-- GitHub Actions pipelines: gated migrations, edge deploys, VPS releases, signed mobile builds
-- Docker, Nginx, and systemd on self-managed infrastructure
+- Layered test strategy: unit, component, and integration tests against a real database
+- GitHub Actions pipelines for migrations, deploys, and signed mobile builds
+- Docker-based deployment on self-managed infrastructure
 
 ---
 
