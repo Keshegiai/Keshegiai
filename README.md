@@ -71,20 +71,6 @@ Appointment booking and clinic management, built as three coordinated surfaces.
 
 ---
 
-### Amanat Business World
-
-Multilingual corporate website for a business services company in Kazakhstan.
-
-- responsive company website;
-- Russian, Kazakh, and English localization;
-- service pages and lead collection;
-- technical SEO and analytics integration;
-- production deployment.
-
-**Stack:** Next.js, TypeScript, Tailwind CSS
-
----
-
 ### Diploma Management Platform
 
 Platform for managing diploma projects and academic workflows.
