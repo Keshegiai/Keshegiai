@@ -17,19 +17,29 @@
 
 ## ⚙️ Engineering Focus
 
-**Data Layer**
-- PostgreSQL schema design via versioned migrations
-- Server-authoritative business logic, pricing, and validation rules
-- Query optimization and read models tailored to access patterns
-
 **Architecture**
-- Modular monolith boundaries in Go; feature-sliced architectures in TypeScript
+- Microservices: bounded services with independent deploy units, REST/OpenAPI contracts between them, containerized runtime and per-service CI pipelines
+- Modular monolith boundaries in Go — split into services only where the boundary is real
+- Feature-sliced architectures in TypeScript, shared domain layer across web and mobile targets
 - SSR with route-level data loading and hydration (TanStack Start, React Query)
 - OpenAPI-first REST contracts with auto-generated types and CI drift-checks
 
+**Data Layer**
+- PostgreSQL schema design via versioned migrations, forward-only in CI
+- Server-authoritative business logic, pricing, and validation rules
+- Query optimization: execution plans, index strategy, read models tailored to access patterns
+- SQL / PL-SQL / T-SQL — stored procedures, functions, triggers, transactions and locking
+
 **Authorization & Performance**
 - Role-based access control enforced consistently across web, mobile, and API surfaces, backed by automated tests
+- Audit logging, rate limiting and defensive API behaviour designed in, not bolted on
 - CI-enforced bundle budgets, automated image optimization pipelines, and route-tuned caching
+- Offline-first clients: service workers, local persistence, cross-device state sync
+
+**Cross-Platform Delivery**
+- One TypeScript codebase → SSR storefront, admin back office, and native Android build (Capacitor)
+- Flutter mobile clients against a shared Go API
+- Bilingual / multilingual interfaces (RU · KZ · EN)
 
 **Delivery & CI/CD**
 - Unit, component, and database-level integration test suites
