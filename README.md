@@ -39,7 +39,7 @@
 **Cross-Platform Delivery**
 - One TypeScript codebase → SSR storefront, admin back office, and native Android build (Capacitor)
 - Flutter mobile clients against a shared Go API
-- Bilingual / multilingual interfaces (RU · KZ · EN)
+- Bilingual / multilingual interfaces (KZ · RU · EN)
 
 **Delivery & CI/CD**
 - Unit, component, and database-level integration test suites
