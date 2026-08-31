@@ -1,23 +1,9 @@
 <div align="center">
 
-# Hi, I'm Aidyn Almassov 👋
-
-### Software Engineer from Almaty, Kazakhstan
-
-Frontend · Backend · Mobile Development
+# Aidyn Almassov
+### Software Engineer · Almaty, Kazakhstan
 
 </div>
-
----
-
-## 🚀 About Me
-
-I build production-ready web, backend, and mobile applications.
-
-Currently working on:
-
-- **SOBRANO** — a food retail platform: SSR storefront, admin back office, Supabase/Postgres, and an Android build from the same codebase;
-- a **healthcare appointment platform** — Go backend, Next.js admin panel, Flutter mobile app, PostgreSQL, Docker, OpenAPI, and GitHub Actions.
 
 ---
 
@@ -29,89 +15,26 @@ Currently working on:
 
 ---
 
-## 💼 Selected Work
-
-### SOBRANO
-
-Food retail platform — customer storefront, admin back office, and a native Android build,
-all from a single TypeScript codebase.
-
-- server-rendered storefront on TanStack Start, with the catalog served from Postgres across
-  six merchandising surfaces (ready meals, raw kits, semi-ready, market, meat, vegetables);
-- admin panel for catalog, branches, staff, and order management;
-- server-authoritative order pricing — delivery fees, minimum-order rules, and promo codes are
-  computed in the database, so the client never recalculates money;
-- role-based access control enforced at the data layer and covered by automated tests in CI;
-- shared domain types across web and mobile, generated from the database schema;
-- Android build produced from the same codebase via Capacitor;
-- CI/CD on GitHub Actions: test suite, versioned migrations, backend function deploys,
-  web releases, and signed mobile builds.
-
-**Stack:** React 19, TanStack Start / Router / Query, TypeScript, Tailwind CSS v4,
-Supabase (Postgres, Edge Functions), Capacitor, Vitest, GitHub Actions
-
-> In active development.
-
----
-
-### Healthcare Appointment Platform
-
-Appointment booking and clinic management, built as three coordinated surfaces.
-
-- patient-facing mobile app for booking and appointment history;
-- admin panel for clinics, doctors, and schedules;
-- Go backend with a modular monolith architecture;
-- OpenAPI-first REST contract shared across all clients;
-- scheduling and availability logic resolved server-side;
-- containerised deployment with CI on GitHub Actions.
-
-**Stack:** Go, Next.js, Flutter, PostgreSQL, Docker, OpenAPI
-
-> In active development.
-
----
-
-### Diploma Management Platform
-
-Platform for managing diploma projects and academic workflows.
-
-- role-based dashboards;
-- project stages and task management;
-- file uploads and notifications;
-- Kanban workflow;
-- frontend integration with a Go REST API.
-
-**Stack:** Next.js, React, TypeScript, TanStack Query, Go
-
-> Product and client repositories are private.
-
----
-
 ## ⚙️ Engineering Focus
 
-**Data layer**
-- PostgreSQL schema design driven entirely by versioned migrations
-- Business rules — pricing, validation, money math — resolved server-side rather than in clients
-- Query optimization and read models shaped around real access patterns
+**Data Layer**
+- PostgreSQL schema design via versioned migrations
+- Server-authoritative business logic, pricing, and validation rules
+- Query optimization and read models tailored to access patterns
 
-**Application architecture**
-- Modular monolith boundaries in Go; feature-sliced frontends in TypeScript
-- SSR with route-level data loading and query hydration (TanStack Start, React Query)
-- REST contracts defined OpenAPI-first, with types generated from the schema and drift-checked in CI
+**Architecture**
+- Modular monolith boundaries in Go; feature-sliced architectures in TypeScript
+- SSR with route-level data loading and hydration (TanStack Start, React Query)
+- OpenAPI-first REST contracts with auto-generated types and CI drift-checks
 
-**Access control**
-- Role-based authorization applied consistently across web, mobile, and API surfaces
-- Authorization rules covered by automated tests rather than manual review
+**Authorization & Performance**
+- Role-based access control enforced consistently across web, mobile, and API surfaces, backed by automated tests
+- CI-enforced bundle budgets, automated image optimization pipelines, and route-tuned caching
 
-**Performance**
-- Bundle budgets and chunk-composition checks enforced as CI steps, not as review comments
-- Image pipelines with CDN transforms, `srcset`, and responsive variants
-- Caching and data-loading strategy tuned per route
-
-**Delivery**
-- Layered test strategy: unit, component, and integration tests against a real database
-- GitHub Actions pipelines for migrations, deploys, and signed mobile builds
-- Docker-based deployment on self-managed infrastructure
+**Delivery & CI/CD**
+- Unit, component, and database-level integration test suites
+- GitHub Actions workflows for database migrations, deployments, and signed mobile builds
+- Containerized deployment infrastructure via Docker
 
 ---
 
