@@ -1,13 +1,5 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:#0d1117,40:#240046,75:#7b2cbf,100:#ff007f&height=180&section=header&text=Aidyn%20Almassov&fontSize=48&fontColor=ffffff&fontAlignY=50&animation=twinkling" width="100%" />
-
-<br/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=2000&color=00F2FE&center=true&vCenter=true&width=400&lines=%3C%2F%3E+Full-Stack+Developer" alt="Full-Stack Developer" />
-</a>
-
+  <img src="./assets/cyber-header.svg" width="100%" alt="Aidyn Almassov — Full-Stack Developer" />
 </div>
 
 ---
