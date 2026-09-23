@@ -12,7 +12,7 @@ I bridge product engineering, clean architecture, and UI/UX — designing system
 
 <p>
   <img src="https://img.shields.io/badge/location-Almaty,_KZ-FF2A6D?style=flat-square&labelColor=0B0418" />
-  <img src="https://img.shields.io/badge/experience-~2_years-00F0FF?style=flat-square&labelColor=0B0418" />
+  <img src="https://img.shields.io/badge/experience-~2_years-F5E900?style=flat-square&labelColor=0B0418" />
   <img src="https://img.shields.io/badge/education-IITU_·_Software_Engineering-F5E900?style=flat-square&labelColor=0B0418" />
   <img src="https://img.shields.io/badge/now-New_Med-39FF88?style=flat-square&labelColor=0B0418" />
 </p>
