@@ -1,7 +1,6 @@
 <div align="center">
 
-# Aidyn Almassov
-### Software Engineer · Almaty, Kazakhstan
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=180&section=header&text=Aidyn%20Almassov&fontSize=42&fontColor=ffffff&animation=twinkling&desc=Software%20Engineer%20%C2%B7%20Almaty,%20Kazakhstan&descSize=18&descAlignY=68" width="100%" />
 
 </div>
 
