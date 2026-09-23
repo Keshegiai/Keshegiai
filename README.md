@@ -1,16 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:#0f0c29,50:#302b63,100:#24243e,100:#ff007f&height=200&section=header&text=Aidyn%20Almassov&fontSize=44&fontColor=00ffff&animation=twinkling&desc=%3C%20Software%20Engineer%20%2F%3E%20%C2%B7%20Almaty&descSize=17&descAlignY=68&descColor=ffffff" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:#0d1117,40:#240046,75:#7b2cbf,100:#ff007f&height=180&section=header&text=Aidyn%20Almassov&fontSize=48&fontColor=ffffff&fontAlignY=50&animation=twinkling" width="100%" />
+
+<br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&duration=3000&pause=1000&color=FF007F&center=true&vCenter=true&width=550&lines=%3E+CONNECTING+TO+MAINFRAME...;%3E+FULL-STACK+%2B+AI+ENGINEERING;%3E+BUILDING+NEXT-GEN+SYSTEMS" alt="Retro Cyberpunk" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=2000&color=00F2FE&center=true&vCenter=true&width=400&lines=%3C%2F%3E+Full-Stack+Developer" alt="Full-Stack Developer" />
 </a>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 Full-Stack Developer with ~2 years of commercial experience, a strong frontend core, and a deep interest in AI integration, ML, and data workflows. 
 
@@ -18,7 +20,7 @@ I bridge product engineering, clean architecture, and UI/UX — designing system
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css,go,python,java,postgres,redis,docker,git,githubactions,figma&perline=8" />
@@ -41,7 +43,7 @@ I bridge product engineering, clean architecture, and UI/UX — designing system
 
 ---
 
-## 💼 Experience & Projects
+## Experience & Projects
 
 ### **Full-Stack Developer** · New Med
 *Present*
@@ -64,7 +66,7 @@ I bridge product engineering, clean architecture, and UI/UX — designing system
 
 ---
 
-# 📊 GitHub Activity
+# GitHub Activity
 
 <p align="center">
   <img
