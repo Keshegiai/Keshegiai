@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=180&section=header&text=Aidyn%20Almassov&fontSize=42&fontColor=ffffff&animation=twinkling&desc=Software%20Engineer%20%C2%B7%20Almaty,%20Kazakhstan&descSize=18&descAlignY=68" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0:#0d1117,25:#00f2fe,70:#4facfe,100:#f000ff&height=180&section=header&text=Aidyn%20Almassov&fontSize=46&fontColor=ffffff&fontAlignY=45&desc=%E2%9A%A1%20SOFTWARE%20ENGINEER%20//%20ALMATY&descSize=16&descAlignY=70&descColor=00f2fe" width="100%" />
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=1000&color=00FF9D&center=true&vCenter=true&width=550&lines=%3E_INITIALIZING_NEURAL_LINK...;Full-Stack+Architect+%7C+Go+%C2%B7+Next.js+%C2%B7+Python;AI+Integration+%26+Data+Workflows;STATUS%3A+READY_FOR_DEPLOYMENT" alt="Cyberpunk Typing" />
+</a>
 
 </div>
 
